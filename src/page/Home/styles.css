@@ -1,0 +1,16 @@
+.container{
+    max-width: auto;
+    margin: 0 auto;
+    max-height: 100vh;
+    background: white;
+}
+.menu-container{
+    height: 50px;
+    background-color: #eee;
+}
+.body-container{
+    height: 60%;
+}
+.footer-container{
+    height: 20%;
+}

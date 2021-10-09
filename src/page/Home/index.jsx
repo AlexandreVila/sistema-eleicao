@@ -1,5 +1,4 @@
-import logo from './logo.svg';
-import './App.css';
+import './styles.css';
 
 function Home() {
   return (
@@ -7,6 +6,13 @@ function Home() {
 
       <div className="menu-container">
         oi
+      </div>
+      <div className="body-container">
+
+      </div> 
+      <div className="footer-container">
+
+
       </div>
 
     </section>
