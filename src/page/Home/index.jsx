@@ -1,6 +1,6 @@
 import './styles.css';
 
-//import { Menu } from '../../components/Menu';
+import { Menu } from '../../components/Menu';
 import { Footer } from '../../components/Footer';
 import { Body } from '../../components/Body';
 
@@ -9,7 +9,7 @@ function Home() {
     <section className="container">
       
       <div className="menu-container">
-       
+        <Menu/>
       </div>
 
       <div className="body-container">
