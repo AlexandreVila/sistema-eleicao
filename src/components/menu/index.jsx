@@ -5,9 +5,7 @@ import { Component } from "react";
 export class Menu extends Component {
 
   
-  render() {
-    const { logado } = this.state;
-    
+  render() {    
     return (
       
       <img src=""/>
