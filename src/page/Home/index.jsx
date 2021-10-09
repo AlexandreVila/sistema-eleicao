@@ -1,17 +1,22 @@
 import './styles.css';
 
+import { Menu } from '../../components/Menu';
+import { Footer } from '../../components/Footer';
+import { Body } from '../../components/Body';
+
 function Home() {
   return (
     <section className="container">
-
+      
       <div className="menu-container">
-        oi
+        <Menu/>
       </div>
-      <div className="body-container">
 
+      <div className="body-container">
+        <Body/>
       </div> 
       <div className="footer-container">
-
+        <Footer/>
 
       </div>
 
