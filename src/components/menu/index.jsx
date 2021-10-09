@@ -7,9 +7,7 @@ export class Menu extends Component {
   
   render() {    
     return (
-      
-      <img src=""/>
-
+      <h1>Oi</h1>
       // {!logado && (
       //   <nav className="nav">
       //   <ul className="ul">
