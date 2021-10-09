@@ -1,6 +1,6 @@
 import './styles.css';
 
-import { Menu } from '../../components/Menu';
+import { Menu } from '../../components/Menu/index';
 import { Footer } from '../../components/Footer';
 import { Body } from '../../components/Body';
 
