@@ -1,0 +1,7 @@
+.body{
+    height: 100%;
+    width: 50%;
+    margin: 150px 10px;
+	display: flex;
+    flex-direction: column;
+}
