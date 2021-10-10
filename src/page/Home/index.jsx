@@ -3,25 +3,44 @@ import './styles.css';
 import { Menu } from '../../components/Menu/index';
 import { Footer } from '../../components/Footer';
 import { Body } from '../../components/Body';
+import { Component } from 'react';
 
-function Home() {
-  return (
-    <section className="container">
-      
-      <div className="menu-container">
-        <Menu/>
-      </div>
 
-      <div className="body-container">
-        <Body/>
-      </div> 
-      <div className="footer-container">
-        <Footer/>
+class Home extends Component {
 
-      </div>
+  state = {
+    logado: false
+  };
 
-    </section>
-  );
+  // async componentDidMount() {
+  // }
+
+  handleChange = (e) => {
+    const { value } = e.target;
+    this.setState({ searchValue: value });
+  }
+
+  render() {
+    const { logado } = this.state;
+
+    return (
+      <section className="container">
+
+        <div className="menu-container">
+         {/* <Menu/>   /// Configurar para aparecer o menu so quando logado*/}
+        
+        </div>
+
+        <div className="body-container">
+          <Body />
+        </div>
+        <div className="footer-container">
+          <Footer />
+
+        </div>
+
+      </section>
+    )
+  }
 }
-
 export default Home;
