@@ -10,9 +10,9 @@
 }
 .body-container{
     height: 60%;
-    margin-bottom: 30px;
     display: flex;
     justify-content: center;
+
 }
 .footer-container{
     height: 20%;
